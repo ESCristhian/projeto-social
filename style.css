@@ -42,26 +42,21 @@ main {
     height: 470px;
 }
 
-#youtube, img {
+#redes-sociais {
+    text-align: right;
+}
+
+img {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
     width: 50px;
-    margin: 10px;
+    margin: 8px 15px;
+    box-sizing: border-box;
     border-radius: 50%;
-    display: block;
-    position: absolute;
-    left: 80%;
 }
 
 img:hover {
-    transform: translateY(-5px);
-    
-}
-
-#github {
-    width: 50px;
-    margin: 10px;
-    border-radius: 50%;
-    display: block;
-    position: absolute;
-    left: 80%;
-    top: 9%;
+    transform: translate(-3px, -3px);
+    border: 2px solid rgba(255, 255, 255, 0.608);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.600);
+    transition: transform .4s, border .1s;
 }
